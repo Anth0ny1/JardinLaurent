@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Dosis|Josefin+Slab|Spirax');
+
+/*!
+Theme Name: jardinlaurent
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: jardinlaurent
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+jardinlaurent is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#content img{
+	width: 100%;
+}
+.miniFooter:hover{
+	opacity: 0.6;
+}
+
+.produitsContainerFull{
+	display: flex;
+	width: 70%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.produitsContainerSingle{
+	/* display: flex; */
+	width: 300px;
+	margin: 20px auto;
+	/* padding-top: 20px; */
+	/* padding-bottom: 20px; */
+	border: 1px solid;
+	background-color: #D3D3D3;
+}
+.produitsContainerSingle{
+	text-align: center;
+}
+.contactProduit{
+	margin: auto;
+	display: block;
+	background-color: #A5CE62;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 300px;
+	text-align: center;
+}
+.contactProduit:hover{
+	background-color: #618B1C;
+}
+/*
+.site-content{
+	width: 1200px;
+	margin: 0 auto;
+} */
+
+.photoPortfolio{
+	width: 300px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+.container{
+	text-align: center;
+	padding: 10px 20px;
+}
+.portfolioContainer{
+	display: flex;
+	padding: 30px;
+	/* width: 40%; */
+	width: 70%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+
+}
+
+.portfolioFooter{
+	flex-wrap: wrap;
+	width: 20%;
+}
+
+.contactFooter{
+	padding-bottom: 20px;
+}
+/* .mapsFooter{
+	width: 15%;
+} */
+
+/* .containerFooter{
+	width: 15%;
+} */
+
+/*
+.logoFooter{
+	width: 15%;
+}
+*/
+header{
+	display: flex;
+	border-bottom: 1px solid;
+	/* padding: 40px; */
+	/* background-color: #D0F5A2; */
+}
+
+
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+
+.titreSite{
+	font-size: 45px;
+	font-family: 'Spirax', cursive;
+}
+.alegreya{
+	font-family: 'Alegreya', serif;
+}
+.josefin{
+	font-family: 'Josefin Slab', serif;
+}
+body{
+	font-family: 'Dosis', sans-serif;
+}
+
+p.presentationSite{
+	font-size: 19px;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+
+h2.alegreya{
+	font-size: 25px;
+}
+.produitsPortfolio{
+	padding: 20px;
+	padding-top: 50px;
+}
+.row{
+	display: flex;
+}
+
+.spaceAround{
+	justify-content: space-around;
+}
+
+footer div.wrap{
+	padding: 40px;
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navFooter ul, .navHeader ul{
+	display: flex;
+}
+.navHeader{
+	display: flex;
+}
+.navHeader ul{
+	vertical-align:middle;
+	/* height: 200px; */
+	margin: auto;
+}
+.navHeader ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	/* border-right: 1px solid; */
+	/* background-color: #A5CE62; */
+}
+
+.navHeader ul li a:hover{
+	color: #A5CE62;
+	border-bottom: 3px solid #A5CE62
+}
+
+.navHeader ul li{
+	border-right: 1px solid;
+}
+
+.navFooter ul li a{
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+}
+
+.navFooter ul li{
+	border-right: 1px solid;
+}
+
+.navFooter ul li a:hover{
+	border-bottom: 1px solid white;
+}
+
+.navFooter ul li.first:first-child, .navHeader ul li.first:first-child{
+	border-left: 1px solid;
+}
+
+.navFooter{
+	margin-bottom: 10px;
+}
+
+.wrap{
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.produitsPortfolio a:hover{
+	opacity: 0.8;
+}
+
+footer{
+	background-color: #222222;
+	color: white;
+}
+
+.contactFull{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+form.wpcf7-form label{
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+form.wpcf7-form p{
+	margin-bottom: 20px;
+}
+
+form.wpcf7-form input[type="submit"]{
+	background-color: #A5CE62;
+	color: white;
+	width: 329px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+form.wpcf7-form input[type="submit"]:hover{
+	background-color: #618B1C;
+}
+
+input{
+	background-color: #f2f2f2;
+	padding: 10px;
+	border: 0px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+}
+
+textarea{
+	width: 329px;
+	background-color: #f2f2f2;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+	border: 0px;
+}
+
+.coordonees{
+	height: 200px;
+	text-align: center;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+}
+.coordonees p{
+	line-height: 30px;
+}
+
+.maps{
+	height: 300px;
+	width: 400px;
+}
