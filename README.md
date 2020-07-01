@@ -1,2 +1,2 @@
 # JardinLaurent
-CMS Wordpress
+Project with Wordpress CMS
